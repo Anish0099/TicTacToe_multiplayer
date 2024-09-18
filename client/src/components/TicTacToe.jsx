@@ -216,7 +216,7 @@ const App = () => {
                 <h2>You are playing against {opponentName}</h2>
             )}
             {finishedState && finishedState === "opponentLeftMatch" && (
-                <h2>You won the match, Opponent has left</h2>
+                <h2>You won the match Opponent has left</h2>
             )}
         </div>
     );

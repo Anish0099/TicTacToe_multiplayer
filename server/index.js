@@ -3,7 +3,7 @@ const { Server } = require("socket.io");
 
 const httpServer = createServer();
 const io = new Server(httpServer, {
-    cors: "http://localhost:3001/",
+    cors: "https://ttt-multiplayer-ak.vercel.app/",
 });
 
 const allUsers = {};

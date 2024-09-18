@@ -209,7 +209,7 @@ const App = () => {
                 {finishedState &&
                     finishedState !== "opponentLeftMatch" &&
                     finishedState === "draw" && (
-                        <h3 className="finished-state">It's a Draw</h3>
+                        <h3 className="finished-state">Its a Draw</h3>
                     )}
             </div>
             {!finishedState && opponentName && (

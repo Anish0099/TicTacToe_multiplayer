@@ -130,7 +130,7 @@ const App = () => {
         const username = result.value;
         setPlayerName(username);
 
-        const newSocket = io("http://localhost:3000", {
+        const newSocket = io("https://tictactoe-multiplayer-cc9u.onrender.com", {
             autoConnect: true,
         });
 
